@@ -73,20 +73,18 @@ export class Tache {
 }
 
 export class Assignation {
-  assignerTache(assignation){
-    this.employe = assignation.employe;
+  assignerTache(assignation){this.employe = assignation.employe;
     this.tache = assignation.tache;
     this.dateAssignation = assignation.dateAssignation;
-    console.log(`Assignation ${this.employe}, ${this.tache}, ${this.dateAssignation}`)
+    console.log(`Tache has been assigned at ${this.dateAssignation}`);
+
   }
 
   obtenirTachesAssignées(){
-    console.log(`Tache assigner: ${this.tache}, ${this.employe}, ${this.dateAssignation}`);
     return {tache: this.tache,  employe: this.employe, dateAssignation: this.dateAssignation };
   }
 
   obtenirEmployésAssignés(){
-    console.log(`Tache assigner: ${this.employe}, ${this.tache}, ${this.dateAssignation}`);
     return {employe: this.employe, tache: this.tache, dateAssignation: this.dateAssignation };
   }
 

@@ -41,3 +41,5 @@ Ce projet implémente un système de gestion de projet en express pour la gestio
 ## Author
 - **GitHub** : [Ousmane Ly](https://github.com/Ousmanly)
 - **LinkedIn** : [Ousmane Ly](www.linkedin.com/in/ousmane-ibrahima-ly-a270a4290)
+
+![Alt text](asset/images/UML.png)
