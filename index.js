@@ -1,6 +1,6 @@
 import express from "express"
 import bodyParser from 'body-parser'
-import { Assignation, Employe, Tache } from "./gestionEmlpoye.js";
+import { Assignation, Employe, Tache } from "./gestionProjet.js";
 
 const app = express();
 const port = 3002;
