@@ -26,7 +26,7 @@ Ce projet implémente un système de gestion de projet en express pour la gestio
 - Clonez ce dépôt :
 
     ```bash
-        git clone https://github.com/Ousmanly/composant-metier.git
+        git clone https://github.com/Ousmanly/gestion-projet-express.git
     ```
 
 ## Utilisation
